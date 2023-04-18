@@ -84,7 +84,7 @@
   }
   
   /* navbar styling */
-  .navbar {
+  #nav-menu {
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -93,32 +93,32 @@
     transition: all 0.3s ease;
     background-color: rgb(41, 37, 1);
   }
-  .navbar.sticky {
+  #nav-menu.sticky {
     padding: 15px 0;
     background: #92bcb5;
   }
-  .navbar .max-width {
+  #nav-menu .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .navbar .logo a {
+  #nav-menu .logo a {
     color: #fff;
     font-size: 35px;
     font-weight: 600;
   }
-  .navbar .logo a span {
+  #nav-menu .logo a span {
     color: #92bcb5;
     transition: all 0.3s ease;
   }
-  .navbar.sticky .logo a span {
+  #nav-menu.sticky .logo a span {
     color: #000;
   }
-  .navbar .menu li {
+  #nav-menu .menu li {
     list-style: none;
     display: inline-block;
   }
-  .navbar .menu li a {
+  #nav-menu .menu li a {
     display: block;
     color: #f3eaea;
     font-size: 18px;
@@ -126,13 +126,13 @@
     margin-left: 25px;
     transition: color 0.3s ease;
   }
-  .navbar .menu li a:hover {
+  #nav-menu .menu li a:hover {
     color: #4df5d9;
   }
-  .navbar.sticky .menu li a:hover {
+  #nav-menu.sticky .menu li a:hover {
     color: rgb(41, 37, 1);
   }
-  .navbar.sticky .menu li a{
+  #nav-menu.sticky .menu li a{
     color: #000;
   }
   /* menu btn styling */
