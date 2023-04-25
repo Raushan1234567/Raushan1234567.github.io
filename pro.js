@@ -1,7 +1,6 @@
-let toggle = document.getElementById('toggle');
-let body = document.querySelector('body');
+
 toggle.addEventListener('click', function () {
-    this.classList.toggle('bi-moon-fill');
+   
     if(this.classList.toggle('bi-brightness-high')){
         body.style.background = "#080809";
         body.style.transition = "2s";     
@@ -62,10 +61,10 @@ function closemenu() {
 }
 // typing text animation script
 var typed = new Typed(".typing", {
-    strings: ["A Full Stack W Developer",  "A JAVA Backend Developer"],
-    typeSpeed: 80,
-    backSpeed: 50,
-    loop: true,
+    strings: [ "A JAVA Backend Developer"],
+    typeSpeed: 0,
+    backSpeed: 0,
+    loop: false,
 })
 
 
