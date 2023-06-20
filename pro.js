@@ -70,12 +70,12 @@ var typed = new Typed(".typing", {
 
 document.querySelector('#resume-link-1').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/file/d/1lNECpVwtPsBT88BhduAs8aHWglyM94fv/view?usp=share_link", "_blank");
+    window.location.assign("https://drive.google.com/file/d/1lNECpVwtPsBT88BhduAs8aHWglyM94fv/view?usp=drive_link", "_blank");
 })
 
 document.querySelector('#resume-link-2').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/file/d/1lNECpVwtPsBT88BhduAs8aHWglyM94fv/view?usp=share_link", "_blank");
+    window.location.assign("https://drive.google.com/file/d/1lNECpVwtPsBT88BhduAs8aHWglyM94fv/view?usp=drive_link", "_blank");
 })
 
 
