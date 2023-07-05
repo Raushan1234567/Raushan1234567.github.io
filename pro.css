@@ -1,20 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Tahoma';
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
 
-  background-color: #080808;
+  background-color:whitesmoke;
 }
 
 #nav-menu {
 
-  background-color:rgb(151, 68, 9);
-  padding: 18px 10%;
-  height: 40px;
-  border: 1px solid RGB(35, 40, 62);
+  background-color: #2a454f;
+  padding: 9px 2%;
+  height: 43px;
+  border: 2px solid RGB(35, 40, 62);
 }
 
 nav {
@@ -33,17 +33,6 @@ nav {
 }
 
 /* ============= */
-/* .checkbtn {
-  font-size: 30px;
-  color: white;
-  float: right;
-  line-height: 80px;
-  right: -40px;
-  cursor: pointer;
-  position: absolute;
-  display: none;
-}
-*/
 
 
 /* ============= */
@@ -75,7 +64,7 @@ nav .fas{
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin: 10px;
+  margin: 15px;
   position: relative;
   color: white
 }
@@ -115,7 +104,7 @@ nav .fas {
 #toggle1 {
   display: none;
 }
-
+/* complete here */
 @media only screen and (max-width:920px) {
    #toggle1 {
       margin-left: 30%;
@@ -190,13 +179,17 @@ nav .fas {
 
 /* ............................................Home Section.................................. */
 
+
+
 #home {
   position: relative;
   height: 100vh;
   min-height: 500px;
+  background-image: url(./images/bg.png); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
+  opacity: 1;
 }
 
 #home .max-width {
@@ -207,14 +200,14 @@ nav .fas {
 
 
 #home .home-content .text-1 {
-  font-size: 40px;
-  color: white;
+  font-size: 30px;
+  color: rgb(176, 168, 170);
 }
 
 #home .home-content .text-2 {
-  font-size: 70px;
+  font-size: 65px;
   font-weight: 600;
-  color: orangered;
+  color: white;
 }
 
 #home .home-content .text-3 {
@@ -223,13 +216,13 @@ nav .fas {
 }
 
 #home .home-content .text-3 span {
-  color: white;
+  color:white;
   font-weight: 600;
 }
 
 #home .home-content a {
   display: inline-block;
-  color: white;
+  color:white;
   background: none;
   border: none;
   font-size: 25px;
@@ -260,9 +253,8 @@ nav .fas {
 
 #resume-button-2 {
   display: inline-block;
-  color: #90A0D9;
   background: none;
-  border: 1px solid #90A0D9;
+  border: 2px solid #0a3d52;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 28px;
@@ -274,57 +266,67 @@ nav .fas {
 }
 
 #resume-button-2:hover {
-  background: #90A0D9;
+  background:whitesmoke;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
 
 }
 
 #resume-button-2:hover>a {
-  color: RGB(35, 40, 62);
+  /* color: RGB(35, 40, 62); */
+  color:  #0a3d52;
 }
 
 /* ................................About Section............................. */
 #about {
-
   margin: auto;
-  width: 80%;
+  width: 100%;
   height: auto;
   padding-bottom: 20px;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
+  background-color:whitesmoke;
 }
 
 #about h1 {
-  padding-top: 20%;
+  padding-top: 8%;
   text-align: center;
   font-size: 40px;
-  color: white;
+  color: #0a3d52;
+
 }
 
 .about-section1 {
   margin: auto;
   margin-top: 4%;
-  width: 80%;
+  width: 85%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 20px;
+  border: 2px solid rgb(177, 177, 183);
+  border-radius: 8px;
 }
 
 .about-section1>div>img {
-  width: 100%;
-  border-radius: 20px;
+  width: 174%;
+  border-radius: 50%;
 }
 
 #user-detail-intro {
-  margin-top: 3%;
-  margin-left: 10%;
-  color: white;
-  font-size: 18px;
+  margin-top: 5%;
+  margin-left: 23%;
+  color: #0a3d52;
+  font-size: 17px;
   font-weight: 500;
+  opacity: 19;
 }
+
 
 
 /* ..............................Skill Section......................... */
 #skills h1 {
-  padding-top: 10%;
-  color: white;
+  padding-top: 8%;
+  color: #0a3d52;
   text-align: center;
   font-size: 40px;
   margin-bottom: 4%;
@@ -336,7 +338,7 @@ nav .fas {
   width: 70%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 5% 3%;
   padding-bottom: 50px;
   margin-bottom: 8%;
@@ -350,7 +352,7 @@ nav .fas {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: 1px solid white;
   padding: 3%;
-  background-color: #90A0D9;
+  border-radius: 15px;
 }
 
 .skills-card:hover {
@@ -359,42 +361,45 @@ nav .fas {
 }
 
 .skills-card img {
-  width: 60%;
+  width: 50%;
   padding-top: 4%;
 }
 
 .skills-card-name {
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 2px;
 }
 
 /* ........................................Project Section .................................. */
 
 #projects h1 {
-  padding-top: 5%;
+  padding-top: 8%;
   text-align: center;
-  font-size: 40px;
+  font-size: 33px;
   margin-bottom: 3%;
-  color: white
+  color: #0a3d52;
 }
 
+
+#projects{
+  background-color:whitesmoke;
+}
 .project {
   width: 70%;
   display: block;
   margin: auto;
 }
 
-/* .project>.project-card {
-  display: flex;
- 
-} */
+#project-heading{
+  color: white;
+}
 
 .project-card {
   width: 100%;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  background-color: RGB(35, 40, 62);
+  background-color:  #2a454f;
   color: white;
   margin-bottom: 5%;
   padding: 3% 1% 3% 1%;
@@ -406,15 +411,7 @@ nav .fas {
 }
 
 #firstprojectdiv img {
-  width: 90%;
-  height: auto;
-  margin: 10px;
-  border-radius: 10px;
-
-}
-
-#firstprojectdiv #img_id {
-  width: 50%;
+  width: 70%;
   height: auto;
   margin: 10px;
   border-radius: 10px;
@@ -431,6 +428,7 @@ nav .fas {
 .project-card h1 {
   left: 0;
   font-size: 20px;
+ 
 }
 
 .project .project-card p {
@@ -451,11 +449,12 @@ nav .fas {
 
 .project-github-link {
   display: flex;
-  width: 35%;
-  border: 1px solid white;
+  width: 42%;
+  border: 2px solid white;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .project-github-link a {
@@ -474,11 +473,13 @@ nav .fas {
 
 .project-deployed-link {
   display: flex;
-  width: 35%;
+  width: 42%;
   border: 1px solid white;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border: 2px solid white;
+  border-radius: 8px;
 }
 
 .project-deployed-link a {
@@ -508,7 +509,7 @@ nav .fas {
   text-align: center;
   font-size: 40px;
   margin-bottom: 3%;
-  color: white;
+  color: #0a3d52;
   padding-top: 30px;
 }
 
@@ -531,10 +532,11 @@ nav .fas {
 
 #contact {
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   width: 100%;
   margin-top: 6%;
-  background-color: #080808;
+  background-color:  #2a454f;
+  
 }
 
 #contact>div {
@@ -574,7 +576,7 @@ nav .fas {
 /* -------------------media query------------------------------------ */
 
 
-@media screen and (min-width: 820px) and (max-width:1180px) {
+@media screen and (min-width: 821px) and (max-width:1180px) {
 
 
 
@@ -764,10 +766,7 @@ nav .fas {
       grid-template-columns: repeat(2, 1fr);
       gap: 5px;
   }
-  /* .react-activity-calendar h1{
-width: 100px;
-margin-left: 30px;
-} */
+  
 
 }
 
@@ -779,6 +778,41 @@ margin-left: 30px;
 /* ================================================= */
 
 @media screen and (min-width: 653px) and (max-width:820px) {
+/* border: 2px solid red; */
+  /* **********************about section************ */
+  #about {
+      /* margin: auto; */
+      width: 100%;
+      height: auto;
+      padding-bottom: 20px;
+      margin-bottom: 15%;
+      background-color:whitesmoke;
+     
+  }
+  
+  #about h1 {
+      padding-top: 8%;
+      text-align: center;
+      font-size: 40px;
+      color: #0a3d52;
+    
+  }
+  
+  .about-section1 {
+      margin: auto;
+      margin-top: 4%;
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      
+  }
+
+  .about-section1>div>img {
+      width: 150%;
+      border-radius: 50%;
+      margin: auto;
+  }
+  
 
   
   .skill {
@@ -815,10 +849,100 @@ margin-left: 30px;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************* */
 @media all and (max-width: 653px) {
 
-  .project-card {
+  #home {
+      position: relative;
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(./images/bg.png); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+      background-size: cover;
+      background-attachment: fixed;
+      text-align: center;
+      opacity: 1;
+
+      margin: 0px;
+  }
+  
+  #home .max-width {
+      padding-top: 8%;
+      width: 100%;
+      display: flex;
+  }
+  
+
+  .home-content {
+      width: 100%;
+      margin: auto;
+      justify-content: space-between;
+      margin-top: 30px;
+  }
+  
+  /* border: 2px solid red; */
+  /* **********************about section************ */
+  #about {
+      /* margin: auto; */
+      width: 100%;
+      height: auto;
+      padding-bottom: 20px;
+      margin-bottom: 15%;
+      background-color:whitesmoke;
+     
+  }
+  
+  #about h1 {
+      padding-top: 8%;
+      text-align: center;
+      font-size: 40px;
+      color: #0a3d52;
+    
+  }
+  
+  .about-section1 {
+      margin: auto;
+      margin-top: 4%;
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      
+  }
+
+  .about-section1>div>img {
+      width: 150%;
+      border-radius: 50%;
+      margin: auto;
+  }
+  
+
+  
+  
+/* ************************************************/
+
+.project-card {
       display: block;
+      padding: 15px;
+     
+  }
+
+  #firstprojectdiv img {
+      width: 70%;
+      margin-left: 50px;
+      height: auto;
+      margin: 10px;
+      border-radius: 8px;
+  
   }
 
   .github {
