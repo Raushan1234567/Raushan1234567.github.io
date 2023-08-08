@@ -61,24 +61,24 @@ function closemenu() {
 }
 // typing text animation script
 var typed = new Typed(".typing", {
-    strings: [ "A JAVA Backend Developer"],
-    typeSpeed: 0,
-    backSpeed: 0,
-    loop: false,
+    strings: [ "A Java Backend Developer"],
+    typeSpeed: 80,
+    backSpeed: 40,
+    loop: true,
 })
+
+
 
 
 document.querySelector('#resume-link-1').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/file/d/1t6_m9NkPJ6n-cPU5Y9yoI1EJdTP4qzJU/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1uAN9ZPKIo2hyoVRCirD78JbrEzsJ1pdO/view?usp=sharing", "_blank");
 })
 
 document.querySelector('#resume-link-2').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/file/d/1t6_m9NkPJ6n-cPU5Y9yoI1EJdTP4qzJU/view?usp=sharing", "_blank");
-})
-
-
+    window.open("https://drive.google.com/file/d/1uAN9ZPKIo2hyoVRCirD78JbrEzsJ1pdO/view?usp=sharing", "_blank");
+ })
 
 
 const sr = ScrollReveal({
