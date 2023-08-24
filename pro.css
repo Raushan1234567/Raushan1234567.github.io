@@ -6,12 +6,16 @@
 
 body {
 
-  background-color: #080808;
+  background-image: url('./tree-736885_1280.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  background-color: rgb(21, 93, 141);
+
 }
 
 #nav-menu {
 
-  background-color:rgb(151, 68, 9);
+  background-color:rgb(9, 99, 151);
   padding: 18px 10%;
   height: 40px;
   border: 1px solid RGB(35, 40, 62);
