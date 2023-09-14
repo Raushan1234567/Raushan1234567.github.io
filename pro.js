@@ -72,12 +72,12 @@ var typed = new Typed(".typing", {
 
 document.querySelector('#resume-link-1').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.open("https://drive.google.com/file/d/1uAN9ZPKIo2hyoVRCirD78JbrEzsJ1pdO/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1lNECpVwtPsBT88BhduAs8aHWglyM94fv/view?usp=sharing", "_blank");
 })
 
 document.querySelector('#resume-link-2').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.open("https://drive.google.com/file/d/1uAN9ZPKIo2hyoVRCirD78JbrEzsJ1pdO/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1lNECpVwtPsBT88BhduAs8aHWglyM94fv/view?usp=sharing", "_blank");
  })
 
 
