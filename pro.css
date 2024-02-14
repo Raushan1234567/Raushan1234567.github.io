@@ -212,13 +212,13 @@ nav .fas {
 
 #home .home-content .text-1 {
   font-size: 40px;
-  color: white;
+  color: rgb(248, 239, 239);
 }
 
 #home .home-content .text-2 {
   font-size: 70px;
   font-weight: 600;
-  color: orangered;
+  color: rgb(185, 180, 206);
 }
 
 #home .home-content .text-3 {
