@@ -6,12 +6,16 @@
 
 body {
 
-  background-color: #080808;
+  background-image: url('./tree-736885_1280.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  background-color: rgb(21, 93, 141);
+
 }
 
 #nav-menu {
 
-  background-color:rgb(151, 68, 9);
+  background-color:rgb(9, 99, 151);
   padding: 18px 10%;
   height: 40px;
   border: 1px solid RGB(35, 40, 62);
@@ -208,13 +212,13 @@ nav .fas {
 
 #home .home-content .text-1 {
   font-size: 40px;
-  color: white;
+  color: rgb(248, 239, 239);
 }
 
 #home .home-content .text-2 {
   font-size: 70px;
   font-weight: 600;
-  color: orangered;
+  color: rgb(185, 180, 206);
 }
 
 #home .home-content .text-3 {
