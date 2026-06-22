@@ -834,7 +834,7 @@ margin-left: 30px;
   #contact>div>div>h1 {
       font-size: 20px;
       cursor: pointer;
-      color: white;
+      color: rgb(255, 255, 255);
   }
   .skill {
       display: grid;
@@ -848,4 +848,107 @@ margin-left: 30px;
       justify-content: center;
   }
 
+}
+
+#soft-skills {
+  padding: 60px 20px;
+  text-align: center;
+  background: #3f86cc;
+}
+
+#soft-skills h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+/* FIX: controlled width + grid layout */
+#soft-skills .skill {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+}
+
+/* Soft skill cards (separate styling) */
+#soft-skills .skills-card {
+  width: 100%;
+  background: #10b93a;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#soft-skills .skills-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Text */
+#soft-skills .skills-card-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+
+
+/* Soft Skills Section */
+#soft-skills {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+#soft-skills h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #222;
+  letter-spacing: 2px;
+}
+
+/* Container */
+#soft-skills .skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* Skill Card */
+.skills-card {
+  width: 180px;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.skills-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Image */
+.skills-card-img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+/* Text */
+.skills-card-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 1px;
 }
